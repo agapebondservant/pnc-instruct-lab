@@ -89,6 +89,51 @@ seed_examples:
           The PCI DSS Requirements that cover the security goal to protect cardholder data:
           - Protecting stored cardholder data
           - Encrypting the transmission of cardholder data across public networks
+  - context: |
+      For more than 160 years, PNC has demonstrated a commitment to performance and integrity. This commitment has not diminished as we have grown to become a leading financial services company. Our Values and our Code of Business Conduct and Ethics serve as our guides to conducting business with the highest integrity and the highest ethical standards. PNC has seven enduring core values that continue to serve us well: Customer Focus, Diversity and Inclusion, Integrity, Performance, Quality of Life, Respect, and Teamwork. These values reflect our culture and direct our day-to-day actions with customers, employees, and stakeholders. They set us apart from competitors and define who we are as an organization.
+    questions_and_answers:
+      - question: |
+          What are PNC’s core values?
+        answer: |
+          PNC’s core values include Customer Focus, Diversity and Inclusion, Integrity, Performance, Quality of Life, Respect, and Teamwork.
+      - question: |
+          What are the three ongoing steps for PCI DSS compliance?
+        answer: |
+          The Code of Business Conduct and Ethics applies to all PNC employees, the Board of Directors, and certain business partners such as vendors and consultants.
+      - question: |
+          What is PNC's seven enduring core values?
+        answer: |
+          PNC's seven enduring core values are customer focus, diversity and inclusion, integrity, performance, quality of life, respect, and teamwork.
+  - context: |
+      PNC requires that all employees and directors act in the best interests of the company and its clients, free from conflicts of interest. A conflict of interest arises when personal interests, relationships, or outside activities influence, or appear to influence, business decisions. Employees must not use their position at PNC for personal gain or advantage. Any situation that creates a conflict—whether involving financial interests, outside employment, or relationships with clients or vendors—must be disclosed to and reviewed by the Corporate Ethics Office. If an unavoidable conflict exists, the company will determine appropriate actions to mitigate risks and uphold ethical standards.
+    questions_and_answers:
+      - question: |
+          How should employees handle conflicts of interest?
+        answer: |
+          Employees must avoid conflicts where personal interests could affect business decisions and disclose any potential conflicts to the Corporate Ethics Office.
+      - question: |
+          What should employees do if they suspect unethical behavior?
+        answer: |
+          Employees should report concerns to their supervisor, the Employee Relations Information Center, or the PNC Business Conduct and Ethics Hotline.
+      - question: |
+          What should you do if an unavoidable conflict exists?
+        answer: |
+          If an unavoidable conflict exists, the company will determine appropriate actions to mitigate risks and uphold ethical standards.
+  - context: |
+      PNC is committed to fostering an ethical and transparent work environment where employees feel safe reporting concerns. Retaliation is a serious violation of Our Values and this Code, and PNC strictly prohibits any form of retaliation, discrimination, or adverse employment action against employees who make good faith reports. Regardless of the nature of the conduct reported, PNC will investigate all concerns promptly and fairly. Allegations of retaliation will be taken seriously, and appropriate action—including disciplinary measures up to and including termination—may be taken against those responsible for retaliatory actions.
+    questions_and_answers:
+      - question: |
+          What kind of protection is available to employees that report misconduct?
+        answer: |
+          PNC strictly prohibits retaliation against employees who report ethical concerns in good faith. The company will investigate all concerns promptly and fairly.
+      - question: |
+          How is retaliation handled under PNC Core Values?
+        answer: |
+          Retaliation is a serious violation of PNC Core Values and the code of conduct and eithics.
+      - question: |
+          How does PNC investigate allegations of retaliation?
+        answer: |
+          PNC investigates allegations of retaliation promptly and fairly. These allegations will be taken seriously.
 
 document_outline: |
   An overview of PNC employee policies related to business conduct and ethics, corporate governance, bylaws, and Payment Card Industry (PCI) security standards.
