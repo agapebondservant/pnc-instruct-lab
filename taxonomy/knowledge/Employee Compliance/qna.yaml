@@ -253,7 +253,7 @@ document_outline: |
 
 document:
   repo: https://github.com/agapebondservant/pnc-instruct-lab.git
-  commit: d11b62a9a94321499acde726b9302804d84b025b
+  commit: e134fa2692cdd20f03963961f60a18080f9ee481
   patterns:
     - patterns/code_of_business_conduct_and_ethics.md
     - patterns/corp_bylaws.md
