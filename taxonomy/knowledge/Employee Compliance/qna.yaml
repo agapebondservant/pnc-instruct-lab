@@ -23,9 +23,9 @@ seed_examples:
           - Remediate: Finding and fixing vulnerabilities in the cardholder data.
           - Report: Generating and submitting required validation and compliance reports to the partnering banks and card brands.
       - question: |
-          At what points in the card-holding ecosystem can cardholder data be exposed to theft or fraud?
+          What activities can cause cardholder data to be exposed to theft or fraud?
         answer: |
-          Cardholder data can be exposed through merchant-based vulnerabilities at any point in the card-holding system, such as point-of-sale devices, personal computers or servers, wireless hotspots, Web shopping applications, paper-based storage systems, and unsecured cardholder data transmission to service providers.
+          Cardholder data can be exposed through merchant-based activities at any point in the card-holding system, such as point-of-sale devices, personal computers or servers, wireless hotspots, Web shopping applications, paper-based storage systems, and unsecured cardholder data transmission to service providers.
   - context: |
       ## overview of PCI Requirements
       PCI security standards are technical and operational requirements set by the PCI Security Standards Council (PCI SSC) to protect cardholder data. The standards apply to all entities that store, process or transmit cardholder data - with guidance for software developers and manufacturers of applications and devices used in those transactions. The Council is responsible for managing the security standards, while compliance with the PCI set of standards is enforced by the founding members of the Council, American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc.
@@ -70,70 +70,183 @@ seed_examples:
       - question: |
           What are the goals of the PCI Data Security Standard?
         answer: |
-          The goals of the PCI Data Security Standard are to:
-          - Build and maintain a secure network
-          - Protect cardholder data
-          - Maintain a vulnerability management program
-          - Implement strong access control measures
-          - Regularly monitor and test networks
-          - Maintain an information security policy
+          The goals of the PCI Data Security Standard are:
+          - Building and maintaining a secure network
+          - Protecting cardholder data
+          - Maintaining a vulnerability management program
+          - Implementing strong access control measures
+          - Regularly monitoring and testing networks
+          - Maintaining an information security policy
       - question: |
           What are the PCI DSS Requirements that address the security goal of building a secure network for transmitting cardholder data?
         answer: |
-          The PCI DSS Requirements that cover the security goal to build a secure network are:
+          The PCI DSS Requirements that cover the security goal of building a secure network are:
           - Installing a firewall configuration to protect cardholder data
           - Avoiding vendor-supplied defaults for system passwords and other security parameters
       - question: |
           What are the PCI DSS Requirements that address the security goal of protecting cardholder data?
         answer: |
-          The PCI DSS Requirements that cover the security goal to protect cardholder data:
+          The PCI DSS Requirements that cover the security goal of protecting cardholder data are:
           - Protecting stored cardholder data
           - Encrypting the transmission of cardholder data across public networks
   - context: |
-      For more than 160 years, PNC has demonstrated a commitment to performance and integrity. This commitment has not diminished as we have grown to become a leading financial services company. Our Values and our Code of Business Conduct and Ethics serve as our guides to conducting business with the highest integrity and the highest ethical standards. PNC has seven enduring core values that continue to serve us well: Customer Focus, Diversity and Inclusion, Integrity, Performance, Quality of Life, Respect, and Teamwork. These values reflect our culture and direct our day-to-day actions with customers, employees, and stakeholders. They set us apart from competitors and define who we are as an organization.
+      For more than 160 years, PNC has demonstrated a commitment to performance and integrity. 
+      This commitment has not diminished as we have grown to become a leading financial services company. 
+      Our Values and our Code of Business Conduct and Ethics serve as our guides to conducting business with the highest integrity 
+      and the highest ethical standards. PNC has seven enduring core values that continue to serve us well: 
+      Customer Focus, Diversity and Inclusion, Integrity, Performance, Quality of Life, Respect, and Teamwork. 
+      These values reflect our culture and direct our day-to-day actions with customers, employees, and stakeholders. 
+      Our Values reflect PNC's culture and serve to direct our day-to-day actions with customers and colleagues. 
+      Similarly, PNC's Code of Business Conduct and Ethics and related policies provide important guidance in conducting our daily affairs. 
+      They apply to all employees and directors of PNC. As a team, we have worked very hard to build a successful and well-respected company. 
+      We simply cannot - and will not - tolerate unethical or inappropriate behavior. 
+      Remember, if you have a question or concern about what is proper conduct for you or anyone else, 
+      you may always talk to your supervisor, the Employee Relations Information Center ('ERIC') at 1-877-968-7762, 
+      or the Corporate Ethics Office at 412-768-8507. You may also report possible violations by calling the PNC Business Conduct and Ethics Hotline at 1-866-785-9753, 
+      where you may choose to remain anonymous.
     questions_and_answers:
       - question: |
-          What are PNC’s core values?
+          What are PNC's seven core values?
         answer: |
-          PNC’s core values include Customer Focus, Diversity and Inclusion, Integrity, Performance, Quality of Life, Respect, and Teamwork.
+          PNC's seven core values are Customer Focus, Diversity and Inclusion, Integrity, Performance, Quality of Life, Respect, and Teamwork.
       - question: |
-          What are the three ongoing steps for PCI DSS compliance?
+          Who does the Code of Business Conduct and Ethics apply to?
         answer: |
-          The Code of Business Conduct and Ethics applies to all PNC employees, the Board of Directors, and certain business partners such as vendors and consultants.
+          The Code of Business Conduct and Ethics applies to all PNC employees and directors.
       - question: |
-          What is PNC's seven enduring core values?
+          Who can answer questions about our Code of Business Conduct and Ethics?
         answer: |
-          PNC's seven enduring core values are customer focus, diversity and inclusion, integrity, performance, quality of life, respect, and teamwork.
+          Employees can reach out to their supervisor, the Employee Relations Information Center ('ERIC'), or the Corporate Ethics Office.
   - context: |
-      PNC requires that all employees and directors act in the best interests of the company and its clients, free from conflicts of interest. A conflict of interest arises when personal interests, relationships, or outside activities influence, or appear to influence, business decisions. Employees must not use their position at PNC for personal gain or advantage. Any situation that creates a conflict—whether involving financial interests, outside employment, or relationships with clients or vendors—must be disclosed to and reviewed by the Corporate Ethics Office. If an unavoidable conflict exists, the company will determine appropriate actions to mitigate risks and uphold ethical standards.
+      PNC requires that all employees and directors act in the best interests of the company and its clients, 
+      free from conflicts of interest. A conflict of interest arises when personal interests, 
+      relationships, or outside activities influence, or appear to influence, business decisions. 
+      Employees must not use their position at PNC for personal gain or advantage. 
+      Any situation that creates a conflict—whether involving financial interests, outside employment, 
+      or relationships with clients or vendors—must be disclosed to and reviewed by the Corporate Ethics Office. 
+      If an unavoidable conflict exists, the company will determine appropriate actions to mitigate risks and uphold ethical standards.
     questions_and_answers:
       - question: |
           How should employees handle conflicts of interest?
         answer: |
-          Employees must avoid conflicts where personal interests could affect business decisions and disclose any potential conflicts to the Corporate Ethics Office.
+          Employees must disclose any potential conflicts to the Corporate Ethics Office for review.
       - question: |
-          What should employees do if they suspect unethical behavior?
+          What is a conflict of interest?
         answer: |
-          Employees should report concerns to their supervisor, the Employee Relations Information Center, or the PNC Business Conduct and Ethics Hotline.
+          A conflict of interest happens when business decisions are influenced, either in actuality or in appearance, by personal interests, personal releationships or external activities.
       - question: |
-          What should you do if an unavoidable conflict exists?
+          What happens if an unavoidable conflict exists?
         answer: |
-          If an unavoidable conflict exists, the company will determine appropriate actions to mitigate risks and uphold ethical standards.
+          If an unavoidable conflict exists, the company will use its discretion to determine an appropriate course of action.
   - context: |
-      PNC is committed to fostering an ethical and transparent work environment where employees feel safe reporting concerns. Retaliation is a serious violation of Our Values and this Code, and PNC strictly prohibits any form of retaliation, discrimination, or adverse employment action against employees who make good faith reports. Regardless of the nature of the conduct reported, PNC will investigate all concerns promptly and fairly. Allegations of retaliation will be taken seriously, and appropriate action—including disciplinary measures up to and including termination—may be taken against those responsible for retaliatory actions.
+      PNC is committed to fostering an ethical and transparent work environment where employees feel safe reporting concerns. 
+      Retaliation is a serious violation of Our Values and this Code, and PNC strictly prohibits any form of retaliation, discrimination, 
+      or adverse employment action against employees who make good faith reports. Regardless of the nature of the conduct reported, 
+      PNC will investigate all concerns promptly and fairly. Allegations of retaliation will be taken seriously, 
+      and appropriate action—including disciplinary measures up to and including termination—may be taken against those responsible for retaliatory actions.
     questions_and_answers:
       - question: |
           What kind of protection is available to employees that report misconduct?
         answer: |
-          PNC strictly prohibits retaliation against employees who report ethical concerns in good faith. The company will investigate all concerns promptly and fairly.
+          PNC strictly prohibits retaliation against employees who report ethical concerns in good faith. The company will investigate all concerns promptly and fairly and take action as appropriate.
       - question: |
           How is retaliation handled under PNC Core Values?
         answer: |
-          Retaliation is a serious violation of PNC Core Values and the code of conduct and eithics.
+          Retaliation is treated as a serious violation of PNC's core values, and appropriate action will be taken against those responsible, including potential termination.
       - question: |
-          How does PNC investigate allegations of retaliation?
+          How quickly does PNC investigate allegations of retaliation?
         answer: |
-          PNC investigates allegations of retaliation promptly and fairly. These allegations will be taken seriously.
+          PNC investigates allegations of retaliation promptly.
+  - context: |
+      ## 1. Shareholder Meetings
+      ## 1.1 Annual Meetings
+      An annual meeting of the shareholders for the election of directors of the Corporation and the 
+      transaction of such other business as may properly come before the meeting shall be held at 11 a.m. 
+      on the fourth Wednesday in April of each year, or on such other date or hour as may be fixed 
+      by the Board of Directors of the Corporation (' Board ').
+      ## 1.2 Special Meetings
+      Special meetings of the shareholders may be called at any time 
+      by the Chair of the Board (' Chair ') or the Chief Executive Officer (' CEO ') or by the Board pursuant 
+      to a resolution adopted by a majority of the total number of directors that the Corporation would have if there were no vacancies. 
+      Only business brought before a special meeting of the shareholders pursuant to the Corporation's notice of the meeting shall be conducted at the meeting.
+
+    questions_and_answers:
+      - question: |
+          When is the annual shareholder meeting held?
+        answer: |
+          The annual meeting of shareholders is held every year at 11 a.m. on the fourth Wednesday of April, unless otherwise indicated by the Board.
+      - question: |
+          Who can call a special meeting of shareholders?
+        answer: |
+          Special meetings may be called by the Chair of the Board, the Chief Executive Officer, or by the Board through a majority vote that matches the number of directors that the Corporation would have without any vacancies.
+      - question: |
+          What types of business can be conducted at a special meeting of shareholders?
+        answer: |
+          Special meetings may only be held for business matters brought before a special meeting of shareholders prior to the meeting announcement.
+        
+  - context: |
+      ## 1. Board of Directors
+      The Board shall oversee the business and affairs of the Corporation, 
+      which shall consist of not less than five (5) nor more than twenty-five (25) 
+      members as shall be established from time to time exclusively by resolution adopted by a majority of the Board. 
+      The Board, by the affirmative vote of a majority of directors, shall elect from among its members 
+      a director designated as the Chair and may elect one (1) or more vice chairs (each a ' Vice Chair ' and collectively, the ' Vice Chairs '). 
+      The Chair shall have the powers and duties as shall be assigned from time to time by the Board and the Vice Chair(s), 
+      if any, shall have the powers and duties as shall be assigned from time to time by the Board.
+      ## 2. Term of Office.
+      After being elected by the shareholders, or by the directors pursuant to Article III,  Section  3,  directors  shall  hold  office  until  
+      the  next  annual  meeting  and  until  their successors  shall have been elected and qualified or  until  such  director's  earlier  death, resignation, disqualification or removal.
+      3. Vacancy.
+      Subject to applicable law and the rights of the holders of any series of the Corporation's preferred stock with respect to such series of 
+      preferred stock, all vacancies in the Board, including vacancies resulting from an increase in the number of directors, may be filled by 
+      a majority vote of the remaining directors, even if less than a quorum.
+    questions_and_answers:
+      - question: |
+          How are vacancies on the Board of Directors filled?
+        answer: |
+          Board vacancies, including those resulting from an increase in directors, may be filled by a majority vote of the remaining directors.
+      - question: |
+          What is the required number of Board members?
+        answer: |
+          The number of Board members must be between 5 and 25.
+      - question: |
+          What is the permitted term of office for directors?
+        answer: |
+          Directors hold office until the next annual meeting and after their successors have been elected and qualified. They can also be replaced after their death, resignation, disqualification, or removal.
+
+  - context: |
+      ## 10. Notice;  Waiver of Notice.
+      10.1 Notice
+      Any notice required to be given to any director may be given either personally (including by telephone) or by sending a copy 
+      thereof in writing through first class United States mail, overnight courier (with receipt therefor), by facsimile, 
+      email or other electronic communication to the director's  address or telephone, email address, facsimile number, as 
+      the case may be, appearing in the records of the Corporation, or supplied by such director to the Corporation for the purpose of notice.  
+      If notice is sent by mail or overnight courier, it shall be deemed to have been given to the person entitled thereto when deposited
+      in the United States mail or with an overnight courier service.  If the notice is given by facsimile, email or other electronic means, 
+      it shall be deemed given when sent to facsimile number or  email address,  appearing  in  the  records  of  the  Corporation  or  supplied  
+      by  such  director  to  the Corporation for purpose of notice.  Reference in these Bylaws to 'written' or 'in writing' includes electronic transmission. 
+      10.2 Waiver
+      Unless otherwise provided by law, whenever any notice is required to be given to any director under the provisions of these Bylaws, 
+      a waiver thereof in writing which is filed with the Corporate Secretary in record form signed by the person or persons entitled to such notice, 
+      whether before or after the time stated therein, will be deemed equivalent to the giving of such notice.  
+      Except in the case of a special meeting of directors, neither the business to be transacted nor the purpose of the meeting need be 
+      specified in the waiver of notice of such meeting.  Attendance of a person either in person or by proxy, when permitted, will constitute a  
+      waiver  of  notice  of  such  meeting,  except  where  such  person  attends  a  meeting  for  the express purpose of objecting to the 
+      transaction of any business because the meeting was not lawfully called or convened.
+    questions_and_answers:
+      - question: |
+          How should notices be given to directors?
+        answer: |
+          Notices to directors can be given personally, by mail, overnight courier, facsimile, email, or other electronic communication. 
+      - question: |
+          What is the process for waiving notice?
+        answer: |
+          A waiver of notice in writing, signed by the person entitled to notice, will be deemed equivalent to the giving of notice. 
+          For special meetings, attendance in person or by proxy constitutes a waiver of notice.
+      - question: |
+          What causes a notice to be deemed as given?
+        answer: |
+          Notices are deemed as given when deposited in the mail or with an overnight courier service, or when sent by facsimile, email, or other electronic means.
 
 document_outline: |
   An overview of PNC employee policies related to business conduct and ethics, corporate governance, bylaws, and Payment Card Industry (PCI) security standards.
@@ -144,5 +257,4 @@ document:
   patterns:
     - patterns/code_of_business_conduct_and_ethics.md
     - patterns/corp_bylaws.md
-    - patterns/corporate_governance_guidelines.md
     - patterns/pci_ssc_quickref_guide.md
