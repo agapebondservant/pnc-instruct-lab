@@ -1,0 +1,103 @@
+version: 3
+domain: Employee Compliance
+created_by: oawofolu
+seed_examples:
+  - context: |
+      ## Introduction: Protecting Cardholder Data with PCI Security Standards
+      The twentieth century U.S. criminal Willie Sutton was said to rob banks because 'that's where the money is.' The same motivation in our digital age makes merchants the new target for financial fraud. Occasionally lax security by some merchants enables criminals to easily steal and use personal consumer financial information from payment card transactions and processing systems.
+      It's a serious problem - more than 510 million records with sensitive information have been breached since January 2005, according to PrivacyRights.org. As a merchant, you are at the center of payment card transactions so it is imperative that you use standard security procedures and technologies to thwart theft of cardholder data.
+      Merchant-based vulnerabilities may appear almost anywhere in the card-processing ecosystem including point-of-sale devices; personal computers or servers; wireless hotspots or Web shopping applications; in paper-based storage systems; and unsecured transmission of cardholder data to service providers. Vulnerabilities may even extend to systems operated by service providers and acquirers, which are the financial institutions that initiate and maintain the relationships with merchants that accept payment cards (see diagram on page 5).
+      include merchants, payment card issuing banks, processors, developers and other vendors.
+      There are three ongoing steps for adhering to the PCI DSS: Assess - identifying cardholder data, taking an inventory of your IT assets and business processes for payment card processing, and analyzing them for vulnerabilities that could expose cardholder data. Remediate - fixing vulnerabilities and not storing cardholder data unless you need it. Report - compiling and submitting required remediation validation records (if applicable), and submitting compliance reports to the acquiring bank and card brands you do business with.
+      PCI DSS follows common sense steps that mirror best security practices. The DSS globally applies to all entities that store, process or transmit cardholder data. PCI DSS and related security standards are administered by the PCI Security Standards Council, which was founded by American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc. Participating Organizations include merchants, payment card issuing banks, processors, developers and other vendors.
+    questions_and_answers:
+      - question: |
+          Why are PCI Security Standards necessary?
+        answer: |
+          PCI Security Standards are necessary to protect cardholder data from merchant-based activities that can make it vulnerable to fraud and theft.
+      - question: |
+          What are the three ongoing steps for PCI DSS compliance?
+        answer: |
+          The three ongoing steps for PCI DSS compliance are:
+          - Assess: Identifying and analyzing cardholder data for any vulnerabilities.
+          - Remediate: Finding and fixing vulnerabilities in the cardholder data.
+          - Report: Generating and submitting required validation and compliance reports to the partnering banks and card brands.
+      - question: |
+          At what points in the card-holding ecosystem can cardholder data be exposed to theft or fraud?
+        answer: |
+          Cardholder data can be exposed through merchant-based vulnerabilities at any point in the card-holding system, such as point-of-sale devices, personal computers or servers, wireless hotspots, Web shopping applications, paper-based storage systems, and unsecured cardholder data transmission to service providers.
+  - context: |
+      ## overview of PCI Requirements
+      PCI security standards are technical and operational requirements set by the PCI Security Standards Council (PCI SSC) to protect cardholder data. The standards apply to all entities that store, process or transmit cardholder data - with guidance for software developers and manufacturers of applications and devices used in those transactions. The Council is responsible for managing the security standards, while compliance with the PCI set of standards is enforced by the founding members of the Council, American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc.
+      ## PAYMENT CARD INDUSTRY SECURITY STANDARDS
+      ## PCI Security Standards Include:
+      ## PCI Data Security Standard (DSS)
+      The PCI DSS applies to all entities that store, process, and/or transmit cardholder data. It covers technical and operational system components included in or connected to cardholder data. If you are a merchant who accepts or processes payment cards, you must comply with the PCI DSS.
+      ## PIN Transaction Security (PTS) Requirements
+      The PCI PTS (formerly PCI PED) is a set of security requirements focused on characteristics and management of devices used in the protection of cardholder PINs and other payment processing related activities.  The requirements are for manufacturers to follow in the design, manufacture and transport of a device to the entity that implements it. Financial institutions, processors, merchants and service providers should only use devices or components that are tested and approved by the PCI SSC.
+      ## Payment Application Data Security Standard (PA-DSS)
+      The PA-DSS is for software developers and integrators of payment applications that store, process or transmit cardholder data as part of authorization or settlement when these applications are sold, distributed or licensed to third parties. Most card brands encourage merchants to use payment applications that are tested and approved by the PCI SSC.
+      The Council monitors new threats to cardholder data and may issue information supplements and other guidance for compliance. Changes to the PCI Security Standards follow a three-year lifecycle; the newest (version 2.0) was published in October 2010.
+      This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+    questions_and_answers:
+      - question: |
+          Who is responsible for setting PCI security standards?
+        answer: |
+          PCI security standards are technical and operational requirements set by the PCI Security Standards Council (PCI SSC) to protect cardholder data. The standards are applied to all entities that store, process or transmit cardholder data, including manufacturers, software developers, merchants and service providers. 
+      - question: |
+          Who is responsible for enforcing PCI security standards?
+        answer: |
+          PCI security standards are enforced by founding members of the PCI Security Standards Council. This includes American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc.
+      - question: |
+          What standards are covered under PCI security standards?
+        answer: |
+          The standards covered under PCI security standards include:
+          - PCI Data Security Standard (DSS): These are PCI security standards that apply to all entities that store, process, and/or transmit cardholder data.
+          - PIN Transaction Security (PTS) Requirements: These are PCI security standards that apply to manufacturers of devices that store cardholder PINs and similar cardholder payment related activities.
+          - Payment Application Data Security Standard (PA-DSS): These are PCI security standards that apply to software developers and integrators of payment applications that are responsible for storing, processing or transmitting cardholder data.
+  - context: |
+      ## The PCI Data Security Standard
+      PCI DSS is the global data security standard adopted by the payment card brands for all entities that process, store or transmit cardholder data.  It consists of common sense steps that mirror security best practices.
+      | Goals                                        | PCI DSS Requirements                                                                                                                                                       |
+      |----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+      | Build and Maintain a Secure  Network         | 1.  Install and maintain a firewall configuration to protect cardholder  data 2.  Do not use vendor-supplied defaults for system passwords and other  security parameters  |
+      | Protect Cardholder Data                      | 3.  Protect stored cardholder data 4.  Encrypt transmission of cardholder data across open, public networks                                                                |
+      | Maintain a Vulnerability  Management Program | 5.  Use and regularly update anti-virus software or programs 6.  Develop and maintain secure systems and applications                                                      |
+      | Implement Strong Access  Control Measures    | 7.  Restrict access to cardholder data by business need to know 8.  Assign a unique ID to each person with computer access 9.  Restrict physical access to cardholder data |
+      | Regularly Monitor and Test  Networks         | 10. Track and monitor all access to network resources and cardholder data 11.  Regularly test security systems and processes                                              |
+      | Maintain an Information  Security Policy     | 12. Maintain a policy that addresses information security for all personnel                                                                                                     
+    questions_and_answers:
+      - question: |
+          What are the goals of the PCI Data Security Standard?
+        answer: |
+          The goals of the PCI Data Security Standard are to:
+          - Build and maintain a secure network
+          - Protect cardholder data
+          - Maintain a vulnerability management program
+          - Implement strong access control measures
+          - Regularly monitor and test networks
+          - Maintain an information security policy
+      - question: |
+          What are the PCI DSS Requirements that address the security goal of building a secure network for transmitting cardholder data?
+        answer: |
+          The PCI DSS Requirements that cover the security goal to build a secure network are:
+          - Installing a firewall configuration to protect cardholder data
+          - Avoiding vendor-supplied defaults for system passwords and other security parameters
+      - question: |
+          What are the PCI DSS Requirements that address the security goal of protecting cardholder data?
+        answer: |
+          The PCI DSS Requirements that cover the security goal to protect cardholder data:
+          - Protecting stored cardholder data
+          - Encrypting the transmission of cardholder data across public networks
+
+document_outline: |
+  An overview of PNC employee policies related to business conduct and ethics, corporate governance, bylaws, and Payment Card Industry (PCI) security standards.
+
+document:
+  repo: https://github.com/agapebondservant/pnc-instruct-lab.git
+  commit: 5f7158a5ce83c4ff493bfe341fe31ecad64ff697
+  patterns:
+    - patterns/code_of_business_conduct_and_ethics.md
+    - patterns/corp_bylaws.md
+    - patterns/corporate_governance_guidelines.md
+    - patterns/pci_ssc_quickref_guide.md
