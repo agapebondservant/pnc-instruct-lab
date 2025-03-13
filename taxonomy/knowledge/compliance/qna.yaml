@@ -359,17 +359,17 @@ seed_examples:
       - question: |
           What key qualities are expected from directors when performing their duties?
         answer: |
-          Directors must act in good faith, rely on the honesty and integrity of 
-          fellow board members and management, and exercise independent judgment 
-          while engaging in strategic discussions and risk assessments. They should also stay 
+          Directors must act in good faith, rely on the honesty and integrity of
+          fellow board members and management, and exercise independent judgment
+          while engaging in strategic discussions and risk assessments. They should also stay
           informed about regulatory and industry changes and participate in ongoing education programs.
       - question: |
           How do directors stay informed and ensure compliance with regulations?
         answer: |
-          Directors are required to stay updated on financial, 
-          regulatory, and industry changes, monitor company strategy and risks, 
-          and ensure adherence to high ethical standards and all applicable laws. 
-          Additionally, they oversee executive compensation, succession planning, ESG initiatives, 
+          Directors are required to stay updated on financial,
+          regulatory, and industry changes, monitor company strategy and risks,
+          and ensure adherence to high ethical standards and all applicable laws.
+          Additionally, they oversee executive compensation, succession planning, ESG initiatives,
           and crisis management, ensuring resilience in the face of potential threats.
   - context: |
       The Nominating and Governance Committee identifies potential directors
