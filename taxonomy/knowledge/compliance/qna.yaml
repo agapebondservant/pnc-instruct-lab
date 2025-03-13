@@ -323,6 +323,141 @@ seed_examples:
         answer: |
           Notices are deemed as given when deposited in the mail or with an overnight courier service,
           or when sent by facsimile, email, or other electronic means.
+  - context: |
+      The board of directors oversees the business and affairs of PNC
+      as managed by the officers and employees of PNC. In discharging their duties,
+      directors act in good faith and in a manner they reasonably believe to be in
+      the best interests of PNC, and they consider the best interests of various PNC
+      constituencies. In discharging their duties, directors rely on the honesty and
+      integrity of their fellow directors and PNC's officers and employees, as well as PNC's
+      outside advisors, auditors, and other representatives. Directors are expected to exercise
+      independent judgment, ask relevant and challenging questions, and actively engage in discussions
+      regarding company strategy, risk management, and corporate governance. Furthermore, directors are
+      required to stay informed about key business and financial matters, regulatory changes, and
+      industry trends that could impact PNC's operations. They must also ensure that the company adheres
+      to high ethical standards and complies with all applicable laws and regulations. The Board conducts
+      regular evaluations to assess its effectiveness and identify opportunities for improvement in
+      governance practices. Additionally, directors participate in ongoing education programs to enhance
+      their understanding of PNC's evolving business landscape and regulatory environment. Directors are
+      also encouraged to maintain an open dialogue with shareholders and stakeholders to address concerns
+      and provide transparency regarding governance decisions. The Board further ensures that there are proper
+      mechanisms in place for monitoring executive compensation, succession planning, and crisis management.
+      Regular risk assessments are conducted to evaluate potential threats to PNC's business model, ensuring that
+      the company remains resilient in the face of economic, legal, or operational challenges. Board members are
+      also expected to uphold corporate social responsibility principles, integrating environmental, social,
+      and governance (ESG) considerations into their decision-making. The Board also ensures that internal audits
+      and compliance programs are robust, and it periodically reviews company policies to align with evolving
+      regulatory standards.
+    questions_and_answers:
+      - question: |
+          What is the primary role of PNC's Board of Directors?
+        answer: |
+          The Board of Directors oversees PNC's business and affairs, ensuring that
+          management operates in the best interests of the company and its stakeholders.
+          They monitor company strategy, risk management, and corporate governance while
+          ensuring regulatory compliance and ethical conduct.
+      - question: |
+          What key qualities are expected from directors when performing their duties?
+        answer: |
+          Directors must act in good faith, rely on the honesty and integrity of 
+          fellow board members and management, and exercise independent judgment 
+          while engaging in strategic discussions and risk assessments. They should also stay 
+          informed about regulatory and industry changes and participate in ongoing education programs.
+      - question: |
+          How do directors stay informed and ensure compliance with regulations?
+        answer: |
+          Directors are required to stay updated on financial, 
+          regulatory, and industry changes, monitor company strategy and risks, 
+          and ensure adherence to high ethical standards and all applicable laws. 
+          Additionally, they oversee executive compensation, succession planning, ESG initiatives, 
+          and crisis management, ensuring resilience in the face of potential threats.
+  - context: |
+      The Nominating and Governance Committee identifies potential directors
+      in a number of ways. The committee may consider recommendations made by
+      current or former directors or members of executive management. The committee
+      may also identify potential directors through contacts in the business, civic, academic,
+      legal, and non-profit communities. When appropriate, the committee may retain a search firm
+      to identify candidates. The committee meets to consider relevant information regarding a director
+      candidate in light of the board-approved evaluation criteria and needs of the board.
+      If the committee does not recommend a candidate for nomination or appointment, or for more
+      evaluation, no further action is taken, and in the case of a shareholder-recommended candidate,
+      the committee's secretary informs the shareholder of the decision and the date of the meeting.
+      If the committee decides to recommend a candidate to the board as a nominee for election at an
+      annual meeting of shareholders or for appointment by the board, the committee chair reports that
+      decision to the full board. The full board votes on whether to nominate the candidate for
+      election or appoint the candidate to the board, as applicable. The committee also evaluates
+      candidates based on their ability to contribute to the board's diversity in terms of professional
+      background, experience, and perspective. Additionally, the committee considers the candidate's
+      independence under regulatory standards, ensuring they meet all eligibility criteria for board service.
+      The evaluation process includes a review of potential conflicts of interest, prior leadership roles, and an
+      assessment of how well the candidate aligns with PNC's corporate values and governance expectations.
+      The committee also examines whether the candidate possesses expertise in financial services, risk management,
+      regulatory compliance, or other areas critical to PNC's strategic direction.
+    questions_and_answers:
+      - question: |
+          How does the Nominating and Governance Committee identify potential directors?
+        answer: |
+          The committee identifies candidates through recommendations from
+          current or former directors, executive management, and business, civic, academic, legal, or non-profit communities.
+          They may also use a search firm if necessary.
+      - question: |
+          What happens if the committee does not recommend a candidate for nomination?
+        answer: |
+          No further action is taken, and in the case of shareholder-recommended candidates,
+          the committee's secretary informs the shareholder of the decision and the meeting date.
+      - question: |
+          How is a director candidate officially nominated for election?
+        answer: |
+          If approved, the committee chair reports the recommendation to the full board,
+          which then votes on whether to nominate the candidate for election or appoint them to the board.
+          The committee also ensures candidates bring diverse expertise, have no conflicts of interest,
+          and align with PNC's governance principles.
+  - context: |
+      The board has not adopted a policy with respect to separating the
+      Chair and Chief Executive Officer ("CEO") positions. The board believes
+      that the board leadership structure should be flexible enough to accommodate
+      different circumstances. The board considers its leadership each year and discusses
+      whether to separate the Chair and CEO positions as necessary or appropriate, in its
+      judgment, including but not limited to when selecting a new CEO. The Presiding Director
+      is an independent director who also serves as the chair of the Nominating and Governance
+      Committee. The board has approved the following duties for the Presiding Director:
+      (1) Preside at meetings of the board in the event of the Chair's unavailability;
+      (2) Preside at regularly scheduled executive sessions of the board's independent directors;
+      (3) When the Presiding Director considers it appropriate, convene and preside at meetings
+      or executive sessions of the board's independent directors; (4) Confer with the Chair or the
+      CEO immediately following the meetings or executive sessions of the board's independent or
+      non-management directors to convey the substance of the discussions held during those sessions,
+      subject to any limitations specified by the independent directors; (5) Act as the principal
+      liaison between the Chair and the CEO and the board's independent and non-management directors.
+      The Presiding Director is also responsible for ensuring that the board's executive sessions are
+      conducted effectively, allowing independent directors to discuss key issues candidly.
+      They play a vital role in facilitating open communication between directors and company
+      leadership, ensuring that management is responsive to board concerns. Furthermore,
+      the Presiding Director may consult with major shareholders as needed, providing insights
+      into corporate governance matters and board decisions. The board reviews the responsibilities
+      of the Presiding Director periodically, ensuring they align with PNC's evolving governance
+      structure and industry best practices.
+    questions_and_answers:
+      - question: |
+          Does PNC require the separation of the Chair and CEO roles?
+        answer: |
+          No, PNC does not have a fixed policy
+          requiring separation of the Chair and CEO roles. The Board evaluates this structure annually
+          to determine the best approach for the company.
+      - question: |
+          What is the role of the Presiding Director within the Board?
+        answer: |
+          The Presiding Director is an independent director who also serves as
+          the chair of the Nominating and Governance Committee.
+          They oversee executive sessions, board meetings in the Chair’s absence, and
+          communication between independent directors and management.
+      - question: |
+          How does the Presiding Director ensure communication between the Board and Management?
+        answer: |
+          After executive sessions, the Presiding Director confers with the Chair or CEO
+          to convey the substance of discussions,
+          serving as the principal liaison between independent directors and management. They
+          also facilitate discussions with major shareholders on governance matters.
 
 document_outline: |
   An overview of PNC employee policies related to business conduct and ethics,
